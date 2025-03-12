@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the content */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin-left: 240px;
+}
+
+
+/* Main Title */
+.main-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+/* Highlighted word in the title */
+.main-title .title-Suffix {
+    color: #197DFF; 
+    font-style: italic;
+    font-weight: bold;
+    font-family: lora;
+}
+
+/* Sub-title */
+.sub-title {
+    font-size: 24px;
+    color: #000000;
+    font-style: italic;
+    font-family: lora;
+    margin-top: 20px;
+}

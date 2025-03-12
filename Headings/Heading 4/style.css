@@ -1,0 +1,51 @@
+/* Remove default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the container */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; 
+}
+
+
+/* Main Title */
+.main-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000; 
+    font-family: 'Inter', sans-serif; 
+}
+
+/* Sub-title */
+/* Sub-title */
+.sub-title {
+    font-size: 24px;
+    color: #197DFF; 
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif; 
+    position: relative; 
+    padding-bottom: 30px;
+}
+
+/* Short blue underline */
+.sub-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    width: 170px;
+    height: 3px;
+    background: #197DFF; 
+    transform: translateX(-50%);
+}
+

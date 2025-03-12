@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the container */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+/* Main Title */
+.main-title {
+    font-size: 60px;
+    font-weight: bold;
+    color: #19325A; 
+    font-family: 'Inter', sans-serif; 
+}
+
+/* Sub-title */
+.sub-title {
+    font-size: 24px;
+    color: #6E757D; 
+    display: block;
+    margin-top: 40px;
+}

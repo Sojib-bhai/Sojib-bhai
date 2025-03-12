@@ -1,0 +1,46 @@
+body {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+/* Main Container */
+.zyre-widget-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1480px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Inner Container */
+.elementor-widget-container {
+    width: 100%;
+}
+
+/* Heading Style */
+.zyre-heading-tittle {
+    font-size: 60px;
+    font-weight: bold;
+    color: #19418c;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.zyre-heading-discripton {
+    font-size: 25px;
+    color: #8C919B;
+    position: relative;
+    padding-left: 533px;
+}
+
+/* Fix the before pseudo-element */
+.zyre-heading-discripton::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 488px;
+    height: 1px;
+    background: #A0A5B1; 
+    transform: translateY(-50%);
+}

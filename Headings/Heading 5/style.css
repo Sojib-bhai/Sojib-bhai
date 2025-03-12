@@ -1,0 +1,69 @@
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full-screen layout */
+body {
+    font-family: sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the section title */
+.sub-heading {
+    font-family: 'Inter', sans-serif;  /* Inter font for the title */
+    font-weight: bold;  /* Make it bold */
+    color: #197DFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 2px;
+    position: relative; /* For positioning the line */
+}
+
+/* Line to the right of the section title */
+.sub-heading::after {
+    content: "";
+    display: block;
+    width: 85px;
+    height: 1px;
+    background-color: #4477aa;
+    position: absolute;
+    right: 75%; /* Align it to the right of the section title */
+    top: 50%; /* Center it vertically relative to the text */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+}
+
+/* Style for the main heading */
+.main-heading {
+    color: #19418C;
+    font-size: 60px;
+    font-family: 'Inter', 'Tight', sans-serif; /* Inter and Tight font applied */
+    font-weight: bold;  /* Bold weight for the main heading */
+    margin-bottom: 20px;
+}
+
+/* Vertical line before body-text */
+.body-discription::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 1px;
+    height: 50px; /* Height of the line */
+    background-color: #4477aa;
+}
+
+/* Style for the body text */
+.body-discription {
+    color: #8C919B;
+    font-size: 24px;
+    line-height: 1.6;
+    position: relative; /* For positioning the vertical line */
+    padding-left: 100px; /* Space for the vertical line */
+}
